@@ -16,10 +16,10 @@ private:
 
 public:
 	void myVectorOptions();
-	std::vector<int>  myVectorRandom(std::vector<int> myVec);
-	std::vector<int>  myVectorCustom(std::vector<int> myVec);
-	//void myVectorSort();
+	std::vector<int>  myVectorRandom();
+	std::vector<int>  myVectorCustom();
 	void myVectorDebug();
+	void myVectorOrdered();
 
 	//~myVectorVal();
 };
