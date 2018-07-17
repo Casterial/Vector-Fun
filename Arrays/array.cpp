@@ -42,10 +42,10 @@ void pClass::myVectorOptions()
 	switch (n)
 	{
 		case '1':
-			myVectorCustom();
+			myVectorRandom();
 			break;
 		case '2':
-			myVectorRandom();
+			myVectorCustom();
 			break;
 		default:
 			std::cout << "invalid input\n";
